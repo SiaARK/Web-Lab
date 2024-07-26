@@ -1,0 +1,68 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Navigation</title>
+</head>
+<frameset rows="50%,50%">  
+    <frameset cols="50%,50%">
+        <frame src="f1.html" name="1">
+        <frame src="f2.html" name="2">
+    </frameset>
+    <frameset cols="50%,50%">
+        <frame src="f3.html" name="3">
+        <frame src="f4.html" name="4">
+    </frameset>
+</frameset>
+<noframes>
+  <body>
+    Your browser is not compatible.
+  </body>
+</noframes>
+</html>
+
+f1.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body bgcolor="Yellow">
+  <p>Top left</p>
+  </body>
+</html>
+
+f2.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body bgcolor="Blue">
+  <p>Top right</p>
+  </body>
+</html>
+
+f3.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+  <body bgcolor="Orange">
+<p>Bottom left</p>
+  </body>
+</html>
+
+f4.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body bgcolor="Green">
+  <p>Bottom right</p>
+  </body>
+</html>
+
+
